@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   root 'application#madrid'
 
+    get '/hola', to: 'application#hola'
+    get 'madrid/', to: 'application#madrid'
 end
